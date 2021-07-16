@@ -13,7 +13,10 @@ import java.io.Serializable;
 @EqualsAndHashCode
 @Embeddable
 @Data
-public  class MovementId implements Serializable {
+public class CompensatoryHoursId implements Serializable {
+    private Long idCompensatoryHours;
+
     private Long idMovement;
+
     private Long idUser;
 }
