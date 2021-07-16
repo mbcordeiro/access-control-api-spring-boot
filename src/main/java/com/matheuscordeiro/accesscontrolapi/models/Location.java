@@ -15,7 +15,9 @@ import javax.persistence.ManyToOne;
 public class Location {
     @Id
     private Long id;
+
     private String description;
+
     @ManyToOne
     private AccessLevel accessLevel;
 }
